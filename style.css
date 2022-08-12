@@ -1,0 +1,199 @@
+body{
+  background-image:url("pictures/thisisengineering-raeng-GzDrm7SYQ0g-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: 'Titillium Web', sans-serif;
+  margin:auto;
+}
+
+#parallax{
+  background-image:url("pictures/lorem-cpXw2cLTYPY-unsplash.jpg");
+  position:relative;
+  background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.text{
+  width:60%;
+  margin:auto;
+}
+#parallax .text, #parallax2 .text{
+  background-color:#000002;
+  width:50%;
+  padding:2%;
+}
+#parallax h1, #parallax2 h1{
+  font-size:300%;
+  text-align:center;
+}
+#parallax p, #parallax2 p, ul{
+  font-size:150%;
+}
+#parallax button{
+  display:block;
+  margin:auto;
+}
+#parallax2{
+  background-image:url("pictures/pawel-czerwinski-NWK_7U4KACc-unsplash.jpg");
+  position:relative;
+  background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#end{
+ background-image:url("pictures/pawel-czerwinski-SawCLzAiew8-unsplash.jpg");
+  background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#end{
+  padding:2%;
+  text-align:center;
+}
+.heart{
+  color:#5CAEDD;
+}
+h1{
+  font-size:500%;
+  color:#5CAEDD;
+}
+h2{
+  color:#C2D8E5;
+}
+h3{
+  font-size:300%;
+}
+p{
+  color:#36719E;
+  font-size:200%;
+}
+
+#title{
+  width:30%;
+  text-align:center;
+  margin-left:66%;
+  margin-top:20%;
+}
+
+#title h1{
+  color: #27353A;
+}
+
+#about, #resources, #people{
+  text-align:center;
+  background-color:#050F1C;
+  padding:5%;
+  position:relative;
+}
+
+.p1, .p2{
+  font-size:150%;
+  color:#5CAEDD;
+}
+
+a{
+  text-decoration: none;
+  color:#5CAEDD;
+}
+
+a:hover{
+  color:#C2D8E5;
+}
+
+button{
+  background-color:#5CAEDD;
+  padding:20px;
+  font-family: 'Titillium Web', sans-serif;
+  font-size:150%;
+  cursor:pointer;
+  transition-duration:.4s;
+}
+button a{
+  color:#050F1C;
+}
+button a:hover{
+  color:#5CAEDD;
+}
+a{
+  cursor:pointer;
+}
+button:hover{
+  background-color:#C2D8E5;
+  color:#5CAEDD;
+  border-color:#5CAEDD;
+}
+#images{
+  display:inline-block;
+  margin:auto;
+}
+#wu{
+  max-width:33.333%;
+  float:left;
+}
+#maryam{
+  float:left;
+  width:33.333%;
+}
+#barbara{
+  width:33.333%;
+  float:left;
+}
+img:hover{
+  opacity: .6;
+}
+img{
+  cursor:pointer;
+    transition: .5s ease;
+}
+
+#popout1, #popout2, #popout3{
+  overflow-x:hidden;
+  transition:1s;
+  width:0px;
+  z-index:1;
+  position:absolute;
+  top:34%;
+  background-color:#C2D8E5;
+}
+
+#popout1 p, #popout2 p, #popout3 p{
+  padding:2%;
+  font-size:110%;
+}
+
+.closebtn{
+  font-size:300%;
+  position:relative;
+  left:45%;
+  top:-10%;
+}
+.closebtn:hover, .credit a:hover{
+  color:#25537D;
+}
+
+a .credit{
+  font-size:50%;
+  margin-left:0%;
+  margin-right:80%;
+}
+.credit{
+  position:relative;
+  top:-5%;
+}
+
+.active.fade {
+  animation: fade 1s ease-in;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
